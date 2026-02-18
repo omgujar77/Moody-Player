@@ -1,0 +1,61 @@
+.mood-element {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.mood-element button {
+  padding: 0.7rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: rgb(85, 83, 83);
+  color: white;
+  cursor: pointer;
+}
+.user-video-feed {
+  width: 20rem;
+  object-fit: cover;
+  background: #f0f0f0;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  color: #999;
+  font-size: 4rem;
+}
+.app-header {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.app-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+.capture-button {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+
+  cursor: pointer;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+.app-main {
+  background: rgb(124, 93, 174);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
