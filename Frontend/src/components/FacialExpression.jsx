@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import * as faceapi from "face-api.js";
 import "./FacialExpession.css";
 import axios from "axios";
-// Detect mobile device
 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
 export default function FacialExpression({ setSongs }) {
@@ -68,7 +67,6 @@ export default function FacialExpression({ setSongs }) {
     try {
       const response = await axios.get(
         `${import.meta.env.VITE_API_URL}/songs?mood=${expression}`,
-        // `http://10.163.158.118:3000/songs?mood=${expression}`,
       );
       console.log("Songs received:", response.data);
       setSongs(response.data.songs);

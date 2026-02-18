@@ -6,7 +6,6 @@ const Moodsongs = ({ Songs }) => {
   const audioRef = useRef(null);
 
   const handlePlayPause = (index, audioUrl) => {
-    // If same song clicked → pause
     if (currentIndex === index) {
       audioRef.current.pause();
       setCurrentIndex(null);
