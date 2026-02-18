@@ -45,10 +45,10 @@ Moody Player is a full-stack web application that detects a user’s facial expr
 
 - Environment Variables (API keys)
 
-
-HTTPS local development using mkcert
+- HTTPS local development using mkcert
 
 # 💡Project Goal
 
 To explore how computer vision and modern web technologies can be combined to create a real-world, interactive and fun user experience.
+
 
