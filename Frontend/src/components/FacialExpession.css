@@ -48,6 +48,7 @@
     transform 0.2s,
     box-shadow 0.2s;
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+  transition: 0.3s ease;
 }
 .app-main {
   background: rgb(124, 93, 174);
@@ -58,4 +59,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+.capture-button:hover {
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+  transform: scale(1.1);
 }
